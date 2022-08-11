@@ -1,0 +1,7 @@
+name: PlayerHolograms
+version: '${version}'
+main: de.xnonymous.playerholograms.PlayerHolograms
+api-version: 1.19
+softdepend: [ SuperiorSkyBlock2, PlotSquared ]
+authors: [ XNonymous ]
+description: Allow player to set holograms, when enabled, only on there island/plot
