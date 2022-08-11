@@ -1,0 +1,18 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      # Check for updates to GitHub Actions every weekday
+      interval: "daily"
+    assignees:
+      - "XNonymous-N2"
+      
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "XNonymous-N2"
