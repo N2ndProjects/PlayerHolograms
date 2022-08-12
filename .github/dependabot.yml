@@ -3,6 +3,7 @@ enable-beta-ecosystems: true
 updates:
 
   - package-ecosystem: "github-actions"
+    target-branch: "development"
     directory: "/"
     schedule:
       # Check for updates to GitHub Actions every weekday
@@ -11,6 +12,7 @@ updates:
       - "XNonymous-N2"
       
   - package-ecosystem: "gradle"
+    target-branch: "development"
     directory: "/"
     schedule:
       interval: "daily"

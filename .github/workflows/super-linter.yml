@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@cdea734fa57747b9831aa9d6fcb274c5f9669557
+        uses: step-security/harden-runner@74b568e8591fbb3115c70f3436a0c6b0909a8504
         with:
           egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
@@ -33,7 +33,7 @@ jobs:
           fetch-depth: 0
 
       - name: Lint Code Base
-        uses: github/super-linter@2d64ac1c067c34beaf7d24cc12733cd46236f76e
+        uses: github/super-linter@01d3218744765b55c3b5ffbb27e50961e50c33c5
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: master
